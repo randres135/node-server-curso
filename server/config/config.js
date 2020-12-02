@@ -17,7 +17,7 @@ process.env.NODE_ENV = process.env.NODE_ENV || 'dev';
 SON 60 SEGUNDOS X 60 MIN X 24 HORAS
 */
 
-process.env.CADUCIDAD_TOKEN=60*60*24*30
+process.env.CADUCIDAD_TOKEN='72h'
 
 
 
@@ -47,3 +47,4 @@ process.env.URLDB= urlDB;
 */
 
 process.env.CLIENT_ID = process.env.CLIENT_ID || '1021456825136-dts0f7a74mgeptklcvnkhc7vd483ak5s.apps.googleusercontent.com'
+
