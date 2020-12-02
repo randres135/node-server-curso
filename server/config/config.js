@@ -41,4 +41,9 @@ if(process.env.NODE_ENV==='dev'){
 
 process.env.URLDB= urlDB;
 
-//mongodb+srv://mongo135:<password>@cluster0.bst0x.mongodb.net/<dbname>?retryWrites=true&w=majority
+
+/*
+==============Google cliente ID====================  
+*/
+
+process.env.CLIENT_ID = process.env.CLIENT_ID || '1021456825136-dts0f7a74mgeptklcvnkhc7vd483ak5s.apps.googleusercontent.com'
